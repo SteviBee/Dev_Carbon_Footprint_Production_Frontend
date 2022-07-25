@@ -5,7 +5,7 @@ React and Node for this project, however if you are extremely interested in
 becoming a Python developer you are welcome to use Python/Flask for this
 project.
     - Frontend: React, css or bootstrap
-    - Backend: Node, Express, Sqlalchemy, Postgresql, WTForms, BCrypt
+    - Backend: Node, Express, Postgresql, BCrypt
 2. Is the front-end UI or the back-end going to be the focus of your project? Or are
 you going to make an evenly focused full-stack application?
     - Evenly focused full-stack!
