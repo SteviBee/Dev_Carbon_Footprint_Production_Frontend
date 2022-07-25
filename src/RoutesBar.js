@@ -5,6 +5,7 @@ import Home from './Home';
 import Login from './Login';
 import Profile from './Profile';
 import Signup from './Signup';
+import CarbonForm from './CarbonForm';
 
 
 
@@ -17,6 +18,7 @@ function RoutesBar() {
                 <Route path="login" element={<Login />}/>             
                 <Route path="signup" element={<Signup />}/>             
                 <Route path="profile" element={<Profile />}/>    
+                <Route path="carbonform" element={<CarbonForm />}/>    
                 <Route path="*" element={<p>Hmmm. I can't seem to find what you want.</p>}/>    
        
             </Routes>

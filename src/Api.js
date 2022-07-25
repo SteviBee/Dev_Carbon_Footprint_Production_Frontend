@@ -60,6 +60,16 @@ class CarbonApi {
         return res.token
     }
 
+    // gets data from CPU ask
+    static async requestCPU(data) {
+        console.log("DATA TO CARBON API", data);
+        let res = await this.request(`calc/cpu`, data, "POST")
+        console.log("DATA BACK from CARBON", res);
+        // CarbonApi.userToken = res.token
+        return res
+    }
+
+
     // updates user data
     // static async patchUser(username, data) {
     //     console.log("username, in API", username);

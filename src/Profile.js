@@ -14,32 +14,6 @@ function Profile() {
     const [formErrors, setFormErrors] = useState([]);
     const { username, password } = formData
 
-    // Update Profile Function:
-    // Create one profileObj for updating the DB and on formData for keeping currentUser updated
-    // const updateProfile = async (formData) => {
-
-    //     // DB Updated:
-    //     let profileData = {
-    //         firstName: formData.firstName,
-    //         lastName: formData.lastName,
-    //         email: formData.email,
-    //         password: formData.password,
-    //     }
-
-    //     // CurrentUser Updated
-    //     let username = formData.username
-    //     let updatedUser;
-
-    //     try {
-    //         let updatedUser = await CarbonApi.patchUser(username, profileData)
-    //     } catch (error) {
-    //         console.log("Error: ", error);
-    //         setFormErrors(error)
-    //         return;
-    //     }
-    //     setCurUser(updatedUser)
-
-    // }
 
     // handle Change
     const handleChange = (evt) => {

@@ -20,14 +20,11 @@ function NavBar() {
           </NavItem>
           <NavItem>
             <NavLink to="/signup">Signup</NavLink>
-          </NavItem>          
+          </NavItem>
+          <NavItem>
+            <NavLink to="/carbonform">Carbon Form</NavLink>
+          </NavItem>
           {curUser ? (<>
-            <NavItem>
-              <NavLink to="/companies">Companies</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/jobs">Jobs</NavLink>
-            </NavItem>
             <NavItem>
               <NavLink to="/profile">Profile</NavLink>
             </NavItem>
