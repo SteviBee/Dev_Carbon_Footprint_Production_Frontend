@@ -9,7 +9,7 @@ import UserContext from "./userContext"
 import useLocalStorage from "./hooks/useLocalStorage";
 import jwt from "jsonwebtoken";
 
-
+// Main App holds the highest level states
 function App() {
   const [curUser, setCurUser] = useState(null);
   // const [token, setToken] = useState("");
