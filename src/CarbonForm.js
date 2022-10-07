@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import UserContext from "./userContext";
 import CarbonApi from "./Api"
 
-import { Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Row, Col, Button, Form, FormGroup, Label, Input, ListGroup } from 'reactstrap';
 
 
 function CarbonForm() {
@@ -60,6 +60,9 @@ function CarbonForm() {
         setFormErrors([])
     }
 
+    // Create recommendation content:
+    
+
     return (<>
         <Row className="CarbonForm">
             <h1>Retrive Carbon Emission Data - CPU</h1>
@@ -93,7 +96,14 @@ function CarbonForm() {
             </Col>
         </Row>
         <h2>Total Carbon Impact: {currCo2} kg CO2e</h2>
-        </>
+        <h2>Recommendations!</h2>
+        <ol>
+            <li>first</li>
+            <li>first</li>
+            <li>first</li>
+            <li>first</li>
+        </ol>
+    </>
     );
 }
 
